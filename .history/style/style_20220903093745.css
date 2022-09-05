@@ -1,0 +1,53 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+/* Commant CSS Utilitis */
+body {
+    border: 0px;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+    background-color: #F3F1FF;
+}
+
+/* Top Players Section */
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.section-title {
+    color: #562EFF;
+    font-size: 24px;
+}
+
+.container {
+    background-color: #FFFFFF;
+    width: 870px;
+}
+
+.top-players {
+    padding: 30px;
+}
+
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.player {
+    display: flex;
+    align-items: center;
+}
+
+.player img {
+    width: 65px;
+    height: 65px;
+}
+
+.name-title {}

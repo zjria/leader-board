@@ -1,0 +1,25 @@
+body {
+    border: 0px;
+    margin: 0px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+/* Top Players Section */
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.player {
+    display: flex;
+    align-items: center;
+}
+
+.player img {
+    width: 65px;
+    height: 65px;
+}

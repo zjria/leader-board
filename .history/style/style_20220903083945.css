@@ -1,0 +1,30 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+body {
+    border: 0px;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+/* Top Players Section */
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.player {
+    display: flex;
+    align-items: center;
+}
+
+.player img {
+    width: 65px;
+    height: 65px;
+}
