@@ -2,45 +2,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
 /* Header Section */
-.nav-container {
+nav .container {
     background: #562EFF;
     height: 94px;
     margin-bottom: 36px;
 }
 
 .navbar {
-    width: 918px;
-    display: flex;
-    justify-content: space-between;
-    margin: 0 auto;
-    align-items: center;
-}
+    width: 870px;
 
-.nav-logo {
-    display: flex;
-    align-items: center;
-    color: #FFFFFF;
 }
 
 .nav-logo img {
     width: 40px;
-    margin-right: 10px;
-}
-
-.manue ul {
-    display: flex;
-    list-style: none;
-    align-items: center;
-}
-
-.manue ul li {
-    margin-left: 36px;
-}
-
-.manue ul li a {
-    text-decoration: none;
-    color: #FFFFFF;
-    font-size: 16px;
 }
 
 /* Commant CSS Utilitis */

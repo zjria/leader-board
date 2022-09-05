@@ -16,12 +16,6 @@
     align-items: center;
 }
 
-.nav-logo {
-    display: flex;
-    align-items: center;
-    color: #FFFFFF;
-}
-
 .nav-logo img {
     width: 40px;
     margin-right: 10px;

@@ -9,28 +9,20 @@
 }
 
 .navbar {
-    width: 918px;
+    width: 870px;
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
     align-items: center;
 }
 
-.nav-logo {
-    display: flex;
-    align-items: center;
-    color: #FFFFFF;
-}
-
 .nav-logo img {
     width: 40px;
-    margin-right: 10px;
 }
 
 .manue ul {
     display: flex;
     list-style: none;
-    align-items: center;
 }
 
 .manue ul li {
